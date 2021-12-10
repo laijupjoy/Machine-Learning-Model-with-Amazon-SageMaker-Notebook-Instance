@@ -124,8 +124,8 @@ In this step, evaluate the performance and accuracy of the machine learning mode
 
 ![](metrics.png)
 
-Based on the prediction, we can conclude that predicted results accuracy 87% (5686/6513)in the test data,
-with a precision of 91% (4678/5157) for income < 50k and 74% (1008/1356) for income 50k.
+Based on the prediction, we can conclude that predicted results accuracy 87% (5686/6513) in the test data,
+with a precision of 91% (4678/5157) for income < 50k and 74% (1008/1356) for income> 50k.
 
 ### Plot Log loss vs Cutoff, and find exact Cutoff 
 
@@ -146,7 +146,7 @@ and detailed analysis from each rule. The graphs and tables are interactive.
 
 ![](12.jpg)
 
-Step 7. Clean up
+## Step 7. Clean up
 
 In this step, terminate the resources used. Not terminating resources will result in charges to your account.
 
